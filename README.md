@@ -1,8 +1,8 @@
-# Horario Escolar — Colegio Los Robles Pilar · V1.0.0 DE PRUEBA
+# Horario Escolar — Colegio Los Robles Pilar · V1.0.1 DE PRUEBA
 
 PWA de demostración comercial independiente creada por MARK-TECH SOFTWARE. **NO OFICIAL**, sin patrocinio ni aprobación del colegio. Los 12 cursos (1.º a 6.º A/B), materias, turnos y horarios para 2027 son **ficticios** y no representan los horarios reales de la institución.
 
-**Identidad visual:** banner y monograma creados específicamente para la DEMO, NO son el escudo oficial ni sustituyen los recursos institucionales auténticos. Nombre propio preservado.
+**Identidad visual:** banner y emblema reinterpretados a partir de referencias públicas, creados específicamente para la DEMO, NO son el escudo oficial ni sustituyen los recursos institucionales auténticos. Nombre propio preservado.
 
 ## Funcionalidad
 - Selector de 12 cursos y divisiones A/B.
@@ -20,4 +20,7 @@ PWA de demostración comercial independiente creada por MARK-TECH SOFTWARE. **NO
 
 El HTML interactivo incluye imágenes embebidas. En algunos Android, el visor de archivos muestra HTML como texto; la prueba más confiable es abrir la URL de GitHub Pages una vez publicada. Los QR incluidos antes de publicar son ilustrativos; la aplicación genera uno de la URL real cuando se abre por HTTPS con conexión.
 
-**Estado:** V1.0.0 DE PRUEBA, aún sin publicar, sin autorización institucional.
+**Estado:** V1.0.1 DE PRUEBA, aún sin publicar, sin autorización institucional.
+
+## V1.0.1
+Únicamente cambió el encabezado institucional y los iconos PWA. Sigue siendo una DEMO no oficial; no se modificaron horarios ni traducciones.

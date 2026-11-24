@@ -1,5 +1,5 @@
 {
-  "version": "V1.0.0",
+  "version": "V1.0.1",
   "app": "Colegio Los Robles Pilar · Horario Escolar · DEMO NO OFICIAL",
   "updated": "2026-11-24",
   "status": "PRUEBA",
@@ -13,5 +13,5 @@
     "it"
   ],
   "courses": "1.º a 6.º, divisiones A y B; 12 cursos ficticios",
-  "notes": "Primera DEMO de prueba: identidad gráfica referencial, no oficial. Horarios ficticios para demostración, sin vinculación institucional."
+  "notes": "Banner e iconos referenciales rediseñados con base en los símbolos y colores del escudo institucional; horarios y funciones preservados. DEMO no oficial."
 }
