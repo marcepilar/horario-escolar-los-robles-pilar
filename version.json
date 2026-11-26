@@ -1,7 +1,7 @@
 {
-  "version": "V1.0.1",
+  "version": "V1.0.2",
   "app": "Colegio Los Robles Pilar · Horario Escolar · DEMO NO OFICIAL",
-  "updated": "2026-11-24",
+  "updated": "2026-11-26",
   "status": "PRUEBA",
   "cycle_year": 2027,
   "languages": [
@@ -13,5 +13,5 @@
     "it"
   ],
   "courses": "1.º a 6.º, divisiones A y B; 12 cursos ficticios",
-  "notes": "Banner e iconos referenciales rediseñados con base en los símbolos y colores del escudo institucional; horarios y funciones preservados. DEMO no oficial."
+  "notes": "Banner del Colegio Los Robles a ancho completo con una sola orla exterior y franja DEMO multilingüe integrada. Horarios e idiomas preservados."
 }

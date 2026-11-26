@@ -305,7 +305,7 @@ body.theme-light{--today-glow:rgba(17,108,179,.13)}
 }
 
 
-/* V1.0.1 – Logo del colegio, icono planeta y aviso de actualización */
+/* V1.0.2 – Logo del colegio, icono planeta y aviso de actualización */
 .school-brand{
  display:flex;align-items:center;justify-content:center;gap:10px;
  min-height:38px;padding:6px 12px;border-radius:14px;
@@ -353,7 +353,7 @@ body.theme-light{--today-glow:rgba(17,108,179,.13)}
 }
 
 
-/* V1.0.1: logo arriba, ciclo abajo y desborde lateral corregido. */
+/* V1.0.2: logo arriba, ciclo abajo y desborde lateral corregido. */
 html, body { width:100%; max-width:100%; overflow-x:clip !important; }
 body { background:var(--bg) !important; }
 .app {
@@ -428,7 +428,7 @@ body { background:var(--bg) !important; }
 }
 
 
-/* V1.0.1 - Cabecera institucional a sangre completa, sin franjas blancas laterales.
+/* V1.0.2 - Cabecera institucional a sangre completa, sin franjas blancas laterales.
    La imagen conserva su relación de aspecto 3:1 para no cortar el escudo ni el lema. */
 .school-brand,
 .school-brand-card { width:100%;max-width:100%;min-width:0; }
@@ -455,7 +455,7 @@ body { background:var(--bg) !important; }
 @media(max-height:620px){.school-brand .school-brand-logo{height:auto!important;}}
 
 
-/* V1.0.13 — Mejor contraste en tema claro, sin alterar los demás temas. */
+/* V1.0.23 — Mejor contraste en tema claro, sin alterar los demás temas. */
 body.theme-light .install-platform,
 body.theme-light .install-guide,
 body.theme-light .help-section{
@@ -494,12 +494,12 @@ body.theme-light .close{border-color:#acbed2;background:#e9f0f9;color:#14243b;}
 }
 
 
-/* V1.0.13: el ordinal completo debe entrar también en pantallas anchas. */
+/* V1.0.23: el ordinal completo debe entrar también en pantallas anchas. */
 @media (min-width:481px){
   .actions>.course-btn{min-width:92px!important;padding:0 9px!important;}
 }
 
-/* V1.0.13 — Inicio estable tras actualizar / regresar a la PWA.
+/* V1.0.23 — Inicio estable tras actualizar / regresar a la PWA.
    Solo la vista expandida puede desplazarse verticalmente. */
 :root{--home-viewport-height:100dvh}
 html:not(.ng-day-expanded){
@@ -528,7 +528,7 @@ body:not(.is-expanded){
 .week:not(.expanded)>.day{min-height:0}
 html.ng-day-expanded{height:auto;overflow-y:auto}
 
-/* V1.0.13: tarjetas informativas de la demostración, exclusivamente dentro de Ayuda. */
+/* V1.0.23: tarjetas informativas de la demostración, exclusivamente dentro de Ayuda. */
 .commercial-info{border-color:color-mix(in srgb,var(--accent),var(--border) 65%)}
 .commercial-info .commercial-points{padding-left:19px;margin:9px 0}
 .commercial-info .commercial-points li{font-size:12px;line-height:1.55;margin:0 0 7px;color:var(--text)}
@@ -536,7 +536,7 @@ html.ng-day-expanded{height:auto;overflow-y:auto}
 body.theme-light .commercial-info .commercial-points li{color:#20334f}
 
 
-/* V1.0.13 — HÍBRIDO PREMIUM: barra contenedora + botones individuales.
+/* V1.0.23 — HÍBRIDO PREMIUM: barra contenedora + botones individuales.
    Conserva exactamente la lógica original de curso, tema, compartir y ayuda. */
 .actions{
  --nav-shell-top:#153151;--nav-shell-bottom:#0c1f38;
@@ -674,7 +674,7 @@ body.theme-light .actions::after{background:linear-gradient(90deg,transparent,#f
 @media(prefers-reduced-motion:reduce){.actions>.course-btn .course-label{animation:none!important}.actions>.square{transition:none!important}}
 
 
-/* V1.0.13 — Zoom de respiración suave en el selector de curso.
+/* V1.0.23 — Zoom de respiración suave en el selector de curso.
    Se anima solo el botón protagonista, no el marco común ni los otros controles. */
 @keyframes ngCourseButtonZoom{
   0%,100%{transform:scale(1)}
@@ -699,7 +699,7 @@ body.theme-light .actions::after{background:linear-gradient(90deg,transparent,#f
   .actions>.course-btn:not([aria-expanded="true"]){animation:none!important;transform:none!important}
 }
 
-/* V1.0.13 — Resaltado en tiempo real de materias y recreos ficticios del curso seleccionado.
+/* V1.0.23 — Resaltado en tiempo real de materias y recreos ficticios del curso seleccionado.
    Verde para clase, amarillo para recreo; sin alterar horarios ni colores originales. */
    No modifica los bloques horarios del instituto, solo su estado visual. */
 .day .detail .lesson.live-now{
@@ -847,7 +847,7 @@ body.theme-light .actions>.theme-btn .theme-icon svg{
   }
 }
 
-/* V1.0.1 — año del ciclo lectivo configurado, alineado a la derecha del título. */
+/* V1.0.2 — año del ciclo lectivo configurado, alineado a la derecha del título. */
 .header-text{display:flex;align-items:center;justify-content:space-between;gap:8px;}
 .header-text h1{min-width:0;flex:1 1 auto;}
 .header-year{flex:0 0 auto;color:var(--accent);font-size:clamp(15px,4.3vw,21px);font-weight:900;line-height:1.1;letter-spacing:.005em;font-variant-numeric:tabular-nums;white-space:nowrap;}
@@ -869,7 +869,7 @@ body.theme-blue .fixed-label{color:#ffb2bd;}
 @media(max-height:640px){.school-brand-card{height:72px!important}}
 
 
-/* V1.0.1: marca local redibujada. Identidad a efectos de demo, no oficial. */
+/* V1.0.2: marca local redibujada. Identidad a efectos de demo, no oficial. */
 .school-brand-card{
   height:clamp(90px,13.5dvh,111px)!important;
   min-height:0!important;
@@ -891,7 +891,7 @@ body.theme-blue .fixed-label{color:#ffb2bd;}
 @media(max-height:650px){.school-brand-card{height:85px!important;padding:4px 10px!important;}}
 @media(max-width:355px){.school-brand-card img.school-lockup{width:min(100%,295px)!important;}}
 
-/* Colegio Los Robles Pilar V1.0.1 — presentación comercial: identidad única y distribución móvil. */
+/* Colegio Los Robles Pilar V1.0.2 — presentación comercial: identidad única y distribución móvil. */
 .school-brand-card{
   height:clamp(76px,11.5dvh,94px)!important;
   gap:0!important;
@@ -953,7 +953,7 @@ body.theme-blue .fixed-label{color:#ffb2bd;}
   .cycle-strip{padding:4px 9px!important;}
 }
 
-/* V1.0.1 — Optimización del escudo en la cabecera, sin ampliar desproporcionadamente la tarjeta. */
+/* V1.0.2 — Optimización del escudo en la cabecera, sin ampliar desproporcionadamente la tarjeta. */
 .school-brand-card{
  height:clamp(96px,13dvh,110px)!important;
  min-height:0!important; padding:6px 10px!important;
@@ -987,14 +987,14 @@ body.theme-blue .fixed-label{color:#ffb2bd;}
  .school-brand-card img.school-brand-crest{height:61px!important;}
 }
 
-/* Colegio Los Robles Pilar DEMO V1.0.1: identidad ilustrativa, distinta del escudo oficial. */
+/* Colegio Los Robles Pilar DEMO V1.0.2: identidad ilustrativa, distinta del escudo oficial. */
 .school-brand-card{background:linear-gradient(120deg,#fbf9f3,#fff 62%,#edf6f5)!important;border-color:#cbd9d8!important;}
 .school-brand-name{color:#23334c!important;font-size:clamp(18px,5.3vw,26px)!important;letter-spacing:-.046em!important;}
 .school-brand-card .school-ident small{color:#7b3046!important;}
 .school-brand-card img.school-brand-crest{filter:drop-shadow(0 2px 2px #1c2a2b22);}
 @media(max-width:350px){.school-brand-name{font-size:17px!important}}
 
-/* Colegio Los Robles Pilar V1.0.1 — identidad ilustrativa creada para esta demostración.
+/* Colegio Los Robles Pilar V1.0.2 — identidad ilustrativa creada para esta demostración.
    Un solo asset horizontal en cabecera; escudo aislado para iconos de instalación. */
 .school-brand{background:transparent!important; border:0!important;box-shadow:none!important; padding:0!important;min-height:0!important;}
 .school-brand .school-brand-card{
@@ -1023,7 +1023,7 @@ body.theme-blue .fixed-label{color:#ffb2bd;}
 }
 
 
-/* Colegio Los Robles Pilar V1.0.1 — corrección auditada del encabezado:
+/* Colegio Los Robles Pilar V1.0.2 — corrección auditada del encabezado:
    se eliminan las bandas blancas causadas por reglas heredadas de imágenes.
    Se utiliza el logotipo completo, sin bordes ni recortes laterales. */
 .school-brand .school-brand-card{background:#F9FAF4!important;}
@@ -1047,7 +1047,7 @@ body.theme-blue .fixed-label{color:#ffb2bd;}
 @media(max-height:660px){
  .school-brand .school-brand-card .school-brand-main img.school-brand-logo{max-height:78px!important;}
 }
-/* Colegio Los Robles Pilar V1.0.1: composición inferior coherente con Chesterton V1.4.42,
+/* Colegio Los Robles Pilar V1.0.2: composición inferior coherente con Chesterton V1.4.42,
     sin intervenir en el banner, horarios ficticios ni las preferencias previas. */
 /* El símbolo aparece solo en el banner institucional. La cuadrícula no reserva un hueco invisible. */
 .header-text{min-width:0;display:flex!important;align-items:baseline!important;justify-content:space-between!important;gap:10px;width:100%;}
@@ -1118,11 +1118,46 @@ body.theme-light .header-year{color:#205A87!important}
 body.theme-light .school-brand .school-brand-card {background:#F9FAF4!important;}
 
 
-/* V1.0.1: banner Los Robles, contraste uniforme y sin bandas laterales. */
+/* V1.0.2: banner Los Robles, contraste uniforme y sin bandas laterales. */
 .school-brand .school-brand-card{background:#061936!important;border-color:#B58B40!important;}
 .school-brand .school-brand-main{background:#061936!important;padding:0!important;overflow:hidden!important;}
 .school-brand .school-brand-card .school-brand-main img.school-brand-logo{width:100%!important;height:100%!important;max-height:none!important;object-fit:contain!important;object-position:center!important;}
 .school-brand .school-ident{background:#061936!important;color:#F1E0B9!important;}
+
+/* V1.0.2 — Encabezado compacto y ancho completo, una única línea de borde. */
+.school-brand {margin-bottom:7px!important;padding:0!important;border:0!important;background:transparent!important;box-shadow:none!important;}
+.school-brand .school-brand-card {
+  box-sizing:border-box!important; display:flex!important; flex-direction:column!important;
+  width:100%!important;height:auto!important;min-height:0!important;
+  padding:0!important;gap:0!important;overflow:hidden!important;
+  border:1px solid #D3AE62!important;border-radius:18px!important;
+  background:#071629!important;box-shadow:0 4px 15px rgba(0,0,0,.22)!important;
+}
+.school-brand .school-brand-main {
+  display:block!important;flex:none!important;width:100%!important;height:auto!important;
+  min-height:0!important;padding:0!important;margin:0!important;overflow:hidden!important;
+}
+.school-brand .school-brand-card .school-brand-main img.school-brand-logo {
+  display:block!important;width:100%!important;height:auto!important;max-width:100%!important;
+  max-height:none!important;min-height:0!important;aspect-ratio:3/1!important;
+  object-fit:fill!important;object-position:center!important;
+  padding:0!important;margin:0!important;border:0!important;border-radius:0!important;
+  background:transparent!important;filter:none!important;box-shadow:none!important;
+}
+.school-brand .school-brand-card .school-ident {
+  box-sizing:border-box!important;display:flex!important;flex:none!important;
+  justify-content:center!important;align-items:center!important;align-self:stretch!important;
+  width:100%!important;max-width:100%!important;min-height:20px!important;
+  margin:0!important;padding:4px 3px 5px!important;
+  background:linear-gradient(90deg,#09172c,#1b2c4c,#09172c)!important;
+  line-height:1.15!important;border:0!important;
+}
+.school-brand .school-brand-card .school-ident small {
+  display:block!important;color:#F6DDA0!important;font-size:clamp(8px,2.3vw,10px)!important;
+  letter-spacing:0!important;line-height:1.15!important;font-weight:800!important;
+  white-space:nowrap!important;text-align:center!important;overflow:visible!important;
+}
+
 </style>
 </head>
 <body class="theme-blue">
@@ -1130,7 +1165,7 @@ body.theme-light .school-brand .school-brand-card {background:#F9FAF4!important;
  <div class="school-brand" aria-label="Vista de demostración no oficial para Colegio Los Robles Pilar">
   <div class="school-brand-card">
     <div class="school-brand-main">
-      <img class="school-brand-logo" src="./banner-los-robles-pilar.png" alt="Emblema reinterpretado del Colegio Los Robles, DEMO no oficial" width="1920" height="600" decoding="async">
+      <img class="school-brand-logo" src="./banner-los-robles-pilar-v102.png" alt="Emblema reinterpretado del Colegio Los Robles, DEMO no oficial" width="1800" height="600" decoding="async">
     </div>
     <div class="school-ident"><small>DEMO NO OFICIAL · HORARIOS FICTICIOS</small></div>
   </div>
@@ -1262,7 +1297,7 @@ const themes=['theme-blue','theme-light','theme-dark'];
 // Cambiar SCHOOL_CYCLE_YEAR al incorporar los horarios del nuevo ciclo lectivo.
 // No depende del 1 de enero ni de la fecha del dispositivo.
 const SCHOOL_CYCLE_YEAR=2027;
-const APP_VERSION='V1.0.1';
+const APP_VERSION='V1.0.2';
 $('helpAppVersion').textContent=APP_VERSION;
 const themeIcons={
   'theme-blue': "<span class=\"theme-icon\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\" focusable=\"false\"><defs><linearGradient id=\"waningBlue\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop stop-color=\"#D0F1FF\"/><stop offset=\".45\" stop-color=\"#81C8FF\"/><stop offset=\"1\" stop-color=\"#3087EA\"/></linearGradient></defs><path transform=\"rotate(11 12 12)\" d=\"M12 2.3 A9.7 9.7 0 0 0 12 21.7 C5.05 17.25 5.05 6.75 12 2.3Z\" fill=\"url(#waningBlue)\" stroke=\"#A9DCFF\" stroke-width=\".36\" stroke-linejoin=\"round\"/></svg></span>",
@@ -1365,7 +1400,7 @@ function renderDemoSchedule(){
   S=sharing;
 }
 
-// V1.0.13 — Resaltado en tiempo real: hora y día LOCAL del dispositivo, horario ficticio del curso seleccionado.
+// V1.0.23 — Resaltado en tiempo real: hora y día LOCAL del dispositivo, horario ficticio del curso seleccionado.
 
 // No se guardan datos ni se cambia el horario oficial. Solo se marca la franja actual.
 const LIVE_TICK_MS=15000;
